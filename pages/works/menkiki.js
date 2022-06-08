@@ -61,8 +61,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Source</Meta>
-          <Link href="https://github.com/craftzdog/caffe-ios-sample">
-            github.com/craftzdog/caffe-ios-sample <ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/sepiropht/porfolios">
           </Link>
         </ListItem>
       </List>

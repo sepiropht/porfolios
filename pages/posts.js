@@ -10,7 +10,7 @@ import thumbMyDeskSetup from '../public/images/contents/youtube-my-desk-setup.jp
 
 const Posts = () => (
   <Layout title="Posts">
-    <Container>
+    {/* <Container>
       <Heading as="h3" fontSize={20} mb={4}>
         Popular Posts
       </Heading>
@@ -24,7 +24,7 @@ const Posts = () => (
           />
         </SimpleGrid>
       </Section>
-    </Container>
+    </Container> */}
   </Layout>
 )
 

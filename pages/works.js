@@ -7,7 +7,7 @@ import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 
 const Works = () => (
   <Layout title="Works">
-    <Container>
+    {/* <Container>
       <Heading as="h3" fontSize={20} mb={4}>
         Works
       </Heading>
@@ -20,7 +20,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
       </SimpleGrid>
-    </Container>
+    </Container> */}
   </Layout>
 )
 

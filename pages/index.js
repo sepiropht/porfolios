@@ -37,7 +37,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Paris/Douala!
+        Hello, I&apos;m an indie app developer based in Paris!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -45,7 +45,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             William Elimbi
           </Heading>
-          <p>Digital Craftsman ( Bitcoinner / Developer / )</p>
+          <p>Digital Craftsman ( Maxi-Bitcoinner / Rustecean / Web lover  )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -64,7 +64,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/William.jpg"
+              src="/images/william.jpg"
               alt="Profile image"
               borderRadius="full"
               width="100%"
@@ -80,8 +80,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           William is a freelance and a full-stack developer based in Paris 
-          product called{' '}
-          <NextLink href="/works/inkdrop" passHref scroll={false}>
+          {/* <NextLink href="/works/inkdrop" passHref scroll={false}>
             <Link>Inkdrop</Link>
           </NextLink>
           . He publishes content for marketing his products and his YouTube
@@ -89,7 +88,7 @@ const Home = () => (
           <NextLink href="https://www.youtube.com/devaslife" passHref>
             <Link target="_blank">Dev as Life</Link>
           </NextLink>
-          &quot; has more than 100k subscribers.
+          &quot; has more than 100k subscribers. */}
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -129,10 +128,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
+          Art, Music{' '}
           , Playing Piano,{' '}
           <Link href="https://500px.com/p/craftzdog" target="_blank">
             Bitcoin
