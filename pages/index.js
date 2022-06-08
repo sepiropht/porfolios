@@ -130,7 +130,7 @@ const Home = () => (
         <Paragraph>
           Art, Music{' '}
           , Playing Piano,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
+          <Link href="https://umbrel.com/" target="_blank">
             Bitcoin
           </Link>
           , Playing Chess
