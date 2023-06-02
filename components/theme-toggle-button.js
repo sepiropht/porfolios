@@ -6,7 +6,7 @@ const ThemeToggleButton = () => {
   const { toggleColorMode } = useColorMode()
 
   return (
-    <AnimatePresence exitBeforeEnter initial={false}>
+    <AnimatePresence initial={false}>
       <motion.div
         style={{ display: 'inline-block' }}
         key={useColorModeValue('light', 'dark')}
@@ -14,6 +14,7 @@ const ThemeToggleButton = () => {
         animate={{ y: 0, opacity: 1 }}
         exit={{ y: 20, opacity: 0 }}
         transition={{ duration: 0.2 }}
+        mode='wait'
       >
         <IconButton
           aria-label="Toggle theme"

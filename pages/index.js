@@ -17,9 +17,9 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoYoutube } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+// import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -67,8 +67,8 @@ const Home = () => (
               src="/images/william.jpg"
               alt="Profile image"
               borderRadius="full"
-              width="100%"
-              height="100%"
+              width={100}
+              height={100}
             />
           </Box>
         </Box>
@@ -170,6 +170,17 @@ const Home = () => (
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
+              >
+                @sepiropht
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.youtube.com/channel/UCqPScKbFOXbARGcenhORRzw" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoYoutube/>}
               >
                 @sepiropht
               </Button>
