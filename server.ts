@@ -16,6 +16,15 @@ app.prepare().then(() => {
       res.statusCode = 200
       res.setHeader('Content-Type', 'application/json')
       res.end(JSON.stringify({"status":"OK","tag":"payRequest","commentAllowed":255,"callback":"https://getalby.com/lnurlp/sepiropht/callback","metadata":"[[\"text/identifier\",\"sepiropht@getalby.com\"],[\"text/plain\",\"Sats for Sepiropht\"]]","minSendable":1000,"maxSendable":11000000000,"payerData":{"name":{"mandatory":false},"email":{"mandatory":false},"pubkey":{"mandatory":false}},"nostrPubkey":"79f00d3f5a19ec806189fcab03c1be4ff81d18ee4f653c88fac41fe03570f432","allowsNostr":true}))
+    } else if(parsedUrl.pathname === '/.well-known/nostr.json') {
+      res.setHeader('Content-Type', 'application/json');
+      res.statusCode = 200;
+      res.end(JSON.stringify({
+        "names": {
+          "sepiropht": "npub137kg7sr9tmfs740xgluzcx955q57fl7sd4nwhhsl3sjwqvr9ltgs25ztm4"
+        }
+      }))
+
     } else {
       // For all other routes, use Next.js default handler
       handle(req, res, parsedUrl)
