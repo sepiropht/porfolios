@@ -21,7 +21,7 @@ app.prepare().then(() => {
       res.statusCode = 200;
       res.end(JSON.stringify({
         "names": {
-          "sepiropht": "npub137kg7sr9tmfs740xgluzcx955q57fl7sd4nwhhsl3sjwqvr9ltgs25ztm4"
+          "sepiropht": "8fac8f40655ed30f55e647f82c18b4a029e4ffd06d66ebde1f8c24e03065fad1"
         }
       }))
 
