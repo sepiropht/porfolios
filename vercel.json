@@ -6,8 +6,7 @@
     },
     {
       "source": "/.well-known/nostr.json",
-      "destination": "https://google.fr"
+      "destination": "/api/nostr.js"
     }
-  ],
-  "rewrites": [{ "source": "/about", "destination": "https://google.fr" }]
+  ]
 }
