@@ -1,0 +1,13 @@
+{
+  "redirects": [
+    {
+      "source": "/.well-known/lnurlp/sepiropht",
+      "destination": "/api/lnurlp.js"
+    },
+    {
+      "source": "/.well-known/nostr.json",
+      "destination": "https://google.fr"
+    }
+  ],
+  "rewrites": [{ "source": "/about", "destination": "https://google.fr" }]
+}
