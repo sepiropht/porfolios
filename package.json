@@ -12,6 +12,7 @@
     "@chakra-ui/react": "^2.7.0",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
+    "@vercel/analytics": "^1.1.1",
     "cross-env": "^7.0.3",
     "framer-motion": "^10.12.16",
     "install": "^0.13.0",
