@@ -16,13 +16,14 @@ const Posts = () => (
       </Heading>
 
       <Section delay={0.1}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        /*<SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="Ma startup dans l'ia"
             thumbnail={hello}
             href="https://blog.sepiropht.me/ma-startup-dans-lia/"
           />
         </SimpleGrid>
+        */
       </Section>
     </Container>
   </Layout>
