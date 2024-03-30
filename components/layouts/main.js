@@ -32,7 +32,7 @@ const Main = ({ children, router }) => {
         <meta property="og:image" content="https://www.craftz.dog/card.png" />
         <script
           async
-          src="https://analytics.sepir.cloud/script.js"
+          src="https://analytics.sepiropht.me/script.js"
           data-website-id="ae8a6792-160d-46af-afcb-435979ba069e"
         ></script>
         <title>William Elimbi - Homepage</title>
